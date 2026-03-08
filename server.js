@@ -49,6 +49,3 @@ server.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
 
-app.use((req, res) => {
-  res.status(404).sendFile(__dirname + "/Public/404.html");
-});
