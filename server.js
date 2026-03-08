@@ -50,5 +50,5 @@ server.listen(PORT, () => {
 });
 
 app.use((req, res) => {
-  res.status(404).sendFile(__dirname + "/404.html");
+  res.status(404).sendFile(__dirname + "/Public/404.html");
 });
